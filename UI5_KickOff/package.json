@@ -1,0 +1,14 @@
+{
+  "name": "ui5_code_with_brandon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ui5 serve -o test/mockServer.html",
+    "build": "ui5 build --all --clean-dest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

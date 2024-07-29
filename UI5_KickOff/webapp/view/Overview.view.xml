@@ -1,0 +1,24 @@
+<mvc:View
+    controllerName="UI_FIVE.controller.App"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true">
+    <Page title="{i18n>homePageTitle}" titleAlignment="Center" width="auto">
+        <landmarkInfo>
+			<PageAccessibleLandmarkInfo
+				rootRole="Region"
+				rootLabel="{i18n>Overview_rootLabel}"
+				contentRole="Main"
+				contentLabel="{i18n>Overview_contentLabel}"
+				headerRole="Banner"
+				headerLabel="{i18n>Overview_headerLabel}"/>
+		</landmarkInfo>
+        <headerContent>
+            <Button icon="sap-icon://hello-world" press="onOpenDialog"></Button>
+        </headerContent>
+        <content>
+            <mvc:XMLView viewName="UI_FIVE.view.HelloPanel" />
+            <mvc:XMLView viewName="UI_FIVE.view.InvoiceList" />
+        </content>
+    </Page>
+</mvc:View>

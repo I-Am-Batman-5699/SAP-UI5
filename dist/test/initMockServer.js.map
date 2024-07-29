@@ -1,0 +1,1 @@
+{"version":3,"file":"initMockServer.js","names":["sap","ui","define","mockserver","init","require"],"sources":["initMockServer-dbg.js"],"mappings":"AAAAA,IAAIC,GAAGC,OAAO,CACV,8BACD,SAAUC,GACT,aAGAA,EAAWC,OAGXJ,IAAIC,GAAGI,QAAQ,CAAC,gCAEpB","ignoreList":[]}

@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/base/ManagedObject"],function(e){"use strict";return e.extend("UI_FIVE.common.<fileName>",{constructor:function(){},exit:function(){}})});
+//# sourceMappingURL=MangedObjects.js.map

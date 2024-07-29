@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/mvc/Controller","sap/m/MessageToast","sap/ui/core/Fragment"],function(e,o,n){"use strict";return e.extend("UI_FIVE.controller.HelloPanel",{onInit:function(){},onShowHello:function(e){const n=this.getView().getModel("i18n").getResourceBundle();const t=this.getView().getModel().getProperty("/person/name");const s=n.getText("helloMessage",[t]);o.show(s)},onOpenDialog:function(e){this.getOwnerComponent().onOpenDialog(e)},onCloseDialog:function(e){this.getOwnerComponent().onCloseDialog(e)}})});
+//# sourceMappingURL=HelloPanel.controller.js.map

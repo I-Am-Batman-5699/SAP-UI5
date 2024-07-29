@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/base/ManagedObject"],function(e){"use strict";return{statusText:function(e){const t=this.getOwnerComponent().getModel("i18n").getResourceBundle();let n="none";switch(e){case"A":n=t.getText("invoiceStatusA");break;case"B":n=t.getText("invoiceStatusB");break;case"C":n=t.getText("invoiceStatusC");break;default:n="Obsolete <Property not maintained anymore>"}return n}}});
+//# sourceMappingURL=Formatter.js.map

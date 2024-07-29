@@ -1,0 +1,32 @@
+<mvc:View
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    controllerName="UI_FIVE.controller.App"
+    displayBlock="true">
+    <!-- <Shell>
+        <App class="myApp">
+            <pages>
+                <Page title="{i18n>homePageTitle}" titleAlignment="Center" class="sapUiResponsiveMargin"
+    width="auto">
+                    <headerContent>
+                        <Button icon="sap-icon://hello-world" press="onOpenDialog"></Button>
+                    </headerContent>
+                    
+                    <content>
+                        <mvc:XMLView viewName="UI_FIVE.view.HelloPanel">
+                        </mvc:XMLView>
+                        <mvc:XMLView viewName="UI_FIVE.view.InvoiceList">
+                        </mvc:XMLView>
+                    </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell> -->
+    <!-- After routing -->
+    <!-- Overview pattern is empty so that will be matched for 'app' id -->
+     <!-- <Shell> -->
+      <!-- Add shell to and goto mobile mode check responsiveness -->
+         <App class="myApp" id="app">
+         </App>
+     <!-- </Shell> -->
+</mvc:View>

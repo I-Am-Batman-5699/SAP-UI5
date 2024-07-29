@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/test/opaQunit","./pages/App"],(e,o)=>{"use strict";QUnit.module("Navigation");e("Should Open the Hello Dialog",(e,o,i)=>{e.iStartMyUIComponent({componentConfig:{name:"UI_FIVE"}});o.onTheAppPage.iPressTheSayHelloWithDialogButton();i.onTheAppPage.iShouldSeetheHelloDialog();i.iTeardownMyApp()})});
+//# sourceMappingURL=navigationJourney.js.map
